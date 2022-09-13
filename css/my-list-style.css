@@ -1,0 +1,181 @@
+/**
+ TODO(you): Add CSS for the list that you create yourself!
+*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(177, 230, 247));
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Header*/
+
+header {
+    background-image: url(../images/Cover.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    outline-style: solid;
+    outline-color: rgb(149, 237, 237);
+    padding: 7px;
+    font-size: 36px;
+    background-color: rgb(225, 231, 235);
+    color: rgb(29, 174, 193);
+}
+
+/* Main */
+
+section#Main {
+    padding-top: 30px;
+    display: block;
+    text-align: left;
+    max-width: 70%;
+    margin: auto;
+}
+
+/* Coconut Mall */
+section#track1 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+section#track1 h2 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+section#track1 h1 {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+section#track1 img {
+    padding-top: 10px;
+    border-radius:2%;
+}
+
+/* Maple Treeway */
+section#track2 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+section#track2 h2 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+
+section#track2 h1 {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+section#track2 img {
+    padding-top: 10px;
+    border-radius:2%;
+}
+
+/* DK Summit */
+section#track3 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+section#track3 h2 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+
+section#track3 h1 {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+section#track3 img {
+    
+    padding-top: 10px;
+    border-radius:2%;
+}
+
+/* Mushroom Gorge */
+section#track4 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+section#track4 h2 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+
+section#track4 h1 {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+section#track4 img {
+    padding-top: 10px;
+    border-radius:2%;
+}
+
+/* Rainbow Road */
+section#track5 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+section#track5 h2 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+
+section#track5 h1 {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+section#track5 img {
+    padding-top: 10px;
+    border-radius:2%;
+}
+
+/* Profile */
+section#profile {
+    text-align: center;
+    font-size: 15px;
+}
+
+section#profile p {
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+section#profile h1 {
+    font-size: 15px;
+    font-weight: normal;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
